@@ -1,0 +1,6 @@
+Client
+java -cp Listener.jar listener.EchoClient gra132 9090
+
+Server
+salloc --time=1:0:0 --account=def-edward
+java -cp Listener.jar listener.EchoServer 9090
